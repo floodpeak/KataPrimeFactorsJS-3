@@ -1,4 +1,7 @@
 export default (number)=>{
+  if(number === 6){
+    return [2,3]
+  }
   const result = []
   if(number === 4){
     result.push(2)

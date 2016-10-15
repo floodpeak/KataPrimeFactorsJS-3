@@ -2,7 +2,7 @@ export default (number)=>{
   const result = []
 
   for(let base = 2;base < number;base++){
-    if(number % base === 0){
+    while(number % base === 0){
       result.push(base)
       number /= base
     }

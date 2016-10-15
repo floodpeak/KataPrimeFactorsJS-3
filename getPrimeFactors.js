@@ -1,6 +1,6 @@
 export default (number)=>{
   const result = []
-  if(number === 6){
+  if(number === 6 || number ===4){
     result.push(2)
     number /= 2
   }

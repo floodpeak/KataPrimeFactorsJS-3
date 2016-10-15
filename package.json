@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/floodpeak/KataPrimeFactorsJS-3#readme",
   "devDependencies": {
+    "babel-core": "^6.17.0",
     "mocha": "^3.1.2"
   }
 }

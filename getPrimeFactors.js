@@ -6,7 +6,8 @@ export default (number)=>{
     number /= base
   }
   if(number === 9){
-    return [3,3]
+    result.push(3)
+    number /= 3
   }
   if(number >1){
     result.push(number)

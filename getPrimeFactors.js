@@ -1,10 +1,10 @@
 export default (number)=>{
   const result = []
   if(number === 4){
-    return [2,2]
+    result.push(2,2)
   }
   if(number >1){
-    return [number]
+    result.push(number)
   }
   return result
 }

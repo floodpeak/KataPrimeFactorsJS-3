@@ -6,8 +6,5 @@ export default (number)=>{
       result.push(base)
     }
   }
-  // if(number >1){
-  //   result.push(number)
-  // }
   return result
 }

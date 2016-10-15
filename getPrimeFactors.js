@@ -8,10 +8,6 @@ export default (number)=>{
     }
     base++
   }
-  if(number % base === 0){
-    result.push(base)
-    number /= base
-  }
   if(number >1){
     result.push(number)
   }

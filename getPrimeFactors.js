@@ -1,8 +1,9 @@
 export default (number)=>{
   const result = []
-  if(number % 2 === 0){
-    result.push(2)
-    number /= 2
+  const base = 2
+  if(number % base === 0){
+    result.push(base)
+    number /= base
   }
   if(number >1){
     result.push(number)

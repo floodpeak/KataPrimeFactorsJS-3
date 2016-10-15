@@ -5,7 +5,7 @@ export default (number)=>{
     result.push(base)
     number /= base
   }
-  base = 3
+  base++
   if(number === 9){
     result.push(base)
     number /= base

@@ -17,4 +17,7 @@ describe('prime factor', ()=>{
   it('should be [2,3] for 6', ()=>{
     expect(getPrimeFactors(6)).to.be.eql([2,3])
   })
+  it('should be [3,3] for 9', ()=>{
+    expect(getPrimeFactors(9)).to.be.eql([3,3])
+  })
 })

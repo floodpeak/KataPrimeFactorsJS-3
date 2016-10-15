@@ -1,12 +1,11 @@
 export default (number)=>{
   const result = []
-  let base = 2
-  while(base < number){
+
+  for(let base = 2;base < number;base++){
     if(number % base === 0){
       result.push(base)
       number /= base
     }
-    base++
   }
   if(number >1){
     result.push(number)
